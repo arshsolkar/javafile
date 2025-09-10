@@ -17,6 +17,7 @@ pipeline {
         stage('run') {
             steps {
                 bat 'java HelloWorld' 
-            }   
+            }  
+        }
     }
 }
